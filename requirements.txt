@@ -1,0 +1,30 @@
+# Discord
+discord.py==2.3.2
+py-cord==2.4.1
+
+# Webサーバー（API連携用）
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# データベース
+motor==3.3.2
+pymongo==4.6.1
+# または PostgreSQL用
+# asyncpg==0.29.0
+# databases==0.8.0
+
+# 自動化
+pure-python-adb==0.3.0.dev0
+requests==2.31.0
+aiohttp==3.9.1
+
+# ユーティリティ
+python-dotenv==1.0.0
+pydantic==2.5.2
+schedule==1.2.1
+colorlog==6.8.0
+
+# クラウド用
+gunicorn==21.2.0
+httpx==0.25.2
